@@ -1,193 +1,501 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ibarra Bots – Asistentes de WhatsApp</title>
-<meta name="description" content="Asistentes de WhatsApp con IA para farmacias, librerías, sindicatos y empresas del agro.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap">
-<style>
-body{margin:0;font-family:"Instrument Sans","Segoe UI",Arial,sans-serif;background:#F5F6F2;color:#10201A}
-a{color:inherit}
-a:hover{opacity:.88}
-a:focus-visible{outline:3px solid #F2B632;outline-offset:3px}
-</style>
-</head>
-<body>
-<div style="width:100%;background:#F5F6F2;color:#10201A;font-size:17px;line-height:1.6">
+<!DOCTYPE html>
 
-<!-- Barra superior -->
-<header style="background:#10201A;color:#F5F6F2">
-<div style="max-width:1160px;margin:0 auto;padding:16px 20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px">
-<a href="#inicio" style="font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:22px;text-decoration:none;color:#F5F6F2">Ibarra · Bots</a>
-<nav style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;font-size:15px">
-<a href="#asistentes" style="text-decoration:none;color:#F5F6F2">Asistentes</a>
-<a href="#como" style="text-decoration:none;color:#F5F6F2">Cómo trabajo</a>
-<a href="#quien" style="text-decoration:none;color:#F5F6F2">Quién soy</a>
-<a href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20asistentes%20de%20WhatsApp" style="text-decoration:none;background:#F2B632;color:#10201A;font-weight:600;padding:10px 18px;border-radius:6px">Escribime por WhatsApp</a>
-</nav>
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/>
+<title>Ibarra · Bots — Asistentes de WhatsApp con Inteligencia Artificial</title>
+<meta name="description" content="Diseño y mantengo asistentes de WhatsApp a medida con inteligencia artificial para farmacias, librerías, sindicatos y empresas del agro. Responden con datos reales 24/7."/>
+<meta property="og:title" content="Ibarra · Bots — Asistentes de WhatsApp con IA"/>
+<meta property="og:description" content="Tu negocio atiende por WhatsApp, también cuando está cerrado. Asistentes inteligentes a medida."/>
+<meta property="og:type" content="website"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } html { scroll-behavior: smooth; } [id] { scroll-margin-top: 96px; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline": "#a08e7a", "on-primary-container": "#613b00", "outline-variant": "#534434", "primary-fixed-dim": "#ffb95f", "secondary-fixed": "#6ffbbe", "surface": "#101413", "on-surface": "#e0e3e1", "primary": "#ffc174", "inverse-on-surface": "#2d3130", "on-error": "#690005", "tertiary-fixed": "#6bff8f", "on-secondary-fixed": "#002113", "on-tertiary-container": "#004f20", "secondary-container": "#00a572", "inverse-surface": "#e0e3e1", "inverse-primary": "#855300", "surface-container-high": "#272b2a", "on-background": "#e0e3e1", "tertiary": "#51e77b", "on-primary": "#472a00", "primary-container": "#f59e0b", "error-container": "#93000a", "on-tertiary": "#003915", "on-secondary-container": "#00311f", "surface-tint": "#ffb95f", "tertiary-fixed-dim": "#4ae176", "tertiary-container": "#2bca62", "on-primary-fixed": "#2a1700", "surface-container-highest": "#313634", "surface-container": "#1c201f", "surface-bright": "#363a39", "on-secondary": "#003824", "surface-container-low": "#181c1b", "surface-variant": "#313634", "on-tertiary-fixed": "#002109", "on-surface-variant": "#d8c3ad", "on-error-container": "#ffdad6", "background": "#101413", "secondary-fixed-dim": "#4edea3", "surface-dim": "#101413", "on-tertiary-fixed-variant": "#005321", "on-secondary-fixed-variant": "#005236", "primary-fixed": "#ffddb8", "secondary": "#4edea3", "on-primary-fixed-variant": "#653e00", "surface-container-lowest": "#0b0f0e", "error": "#ffb4ab" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-sm": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-md": "1rem", "margin-sm": "1rem", "space-xs": "0.25rem", "gutter": "1.5rem", "margin": "2rem", "space-xl": "2.5rem" }, "fontFamily": { "display": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-mobile": ["Plus Jakarta Sans"], "body-lg": ["Hanken Grotesk"], "code-metric": ["Hanken Grotesk"], "headline-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Hanken Grotesk"], "label-sm": ["Hanken Grotesk"], "body-sm": ["Hanken Grotesk"], "label-md": ["Hanken Grotesk"], "title-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"] }, "fontSize": { "display": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "display-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400" }], "code-metric": ["13px", { "lineHeight": "18px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }], "title-lg": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }] } } } }</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between"><a class="flex items-center gap-space-sm group" data-path="landing-page" href="#"><div class="flex items-center gap-space-xs"><span class="font-title-lg text-title-lg text-on-surface tracking-tight font-display">Ibarra</span><span class="text-outline font-title-lg text-title-lg">·</span><span class="font-title-lg text-title-lg text-primary tracking-tight font-display">Bots</span></div><div class="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container-high/80 ml-space-xs"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary shadow-[0_0_8px_#4edea3]"></span></span><span class="font-label-sm text-label-sm text-secondary uppercase">Online</span></div></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="bg-surface-container-high text-on-surface font-title-md"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="asistentes" href="#asistentes">Asistentes</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="como-trabajo" href="#como-trabajo">Cómo trabajo</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="quien-soy" href="#quien-soy">Quién soy</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary font-title-md text-title-md hover:bg-primary transition-all shadow-[0_0_16px_rgba(245,158,11,0.25)] hover:shadow-[0_0_24px_rgba(245,158,11,0.4)]" href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20asistentes%20de%20WhatsApp" rel="noopener noreferrer" target="_blank">Escribime por WhatsApp</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button id="mobile-menu-btn" class="md:hidden flex items-center justify-center w-9 h-9 rounded-lg bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors" aria-label="Abrir menú"><span class="material-symbols-outlined text-[22px]" id="menu-icon">menu</span></button></div></div><div id="mobile-menu" class="hidden md:hidden px-margin py-4 bg-surface-container-low/95 backdrop-blur-xl border-t border-outline-variant/20 flex flex-col gap-2"><a class="font-body-md text-on-surface-variant hover:text-on-surface py-2 border-b border-outline-variant/10 transition-colors" href="#asistentes" onclick="toggleMobileMenu()">Asistentes</a><a class="font-body-md text-on-surface-variant hover:text-on-surface py-2 border-b border-outline-variant/10 transition-colors" href="#como-trabajo" onclick="toggleMobileMenu()">Cómo trabajo</a><a class="font-body-md text-on-surface-variant hover:text-on-surface py-2 border-b border-outline-variant/10 transition-colors" href="#quien-soy" onclick="toggleMobileMenu()">Quién soy</a><a class="inline-flex sm:hidden items-center justify-center px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary font-title-md text-title-md mt-2" href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20asistentes%20de%20WhatsApp" rel="noopener noreferrer" target="_blank">Escribime por WhatsApp</a></div></header><main id="inicio" class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- AMBIENT CANVAS LIGHTING -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[720px] h-[400px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-96 -left-20 w-[420px] h-[360px] bg-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
+<!-- HERO SECTION -->
+<section class="relative max-w-7xl mx-auto px-margin pt-space-xl pb-space-xl lg:pt-28 lg:pb-32">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Left Column: Editorial & Conversion -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-lg">
+<!-- Live Status Eyebrow -->
+<div class="inline-flex items-center gap-space-xs px-3.5 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-md shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+              Asistentes de WhatsApp con inteligencia artificial
+            </span>
 </div>
-</header>
-
-<!-- Héroe -->
-<section id="inicio" style="background:#10201A;color:#F5F6F2">
-<div style="max-width:1160px;margin:0 auto;padding:64px 20px 80px;display:flex;flex-wrap:wrap;align-items:center;gap:48px">
-<div style="flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:24px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#B8C5BE">Asistentes de WhatsApp con inteligencia artificial</p>
-<h1 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(40px,6vw,68px);line-height:1.02;text-wrap:balance">Tu negocio atiende por WhatsApp, <span style="box-shadow:inset 0 -.3em 0 #0F6B4F">también cuando está cerrado.</span></h1>
-<p style="margin:0;font-size:20px;color:#B8C5BE;max-width:34em">Diseño y mantengo asistentes a medida para farmacias, librerías, sindicatos y empresas del agro. Responden con la información real de cada cliente y pasan la conversación a una persona cuando hace falta.</p>
-<div style="display:flex;flex-wrap:wrap;gap:12px">
-<a href="#asistentes" style="text-decoration:none;background:#F2B632;color:#10201A;font-weight:600;padding:14px 24px;border-radius:6px">Ver los cuatro asistentes</a>
-<a href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20ver%20una%20demo" style="text-decoration:none;border:2px solid #F5F6F2;color:#F5F6F2;font-weight:600;padding:12px 24px;border-radius:6px">Pedir una demo</a>
+<!-- Main H1 Headline -->
+<h1 class="font-display text-display text-on-surface tracking-tight">
+            Tu negocio atiende por WhatsApp, <span class="text-primary">también cuando está cerrado.</span>
+</h1>
+<!-- Value Proposition -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Diseño y mantengo asistentes a medida para farmacias, librerías, sindicatos y empresas del agro. Responden con la información real de cada cliente y pasan la conversación a una persona cuando hace falta.
+          </p>
+<!-- Primary CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs w-full sm:w-auto">
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-lg bg-primary-container text-on-primary font-title-md text-title-md hover:bg-primary transition-all shadow-[0_0_20px_rgba(245,158,11,0.28)] hover:shadow-[0_0_28px_rgba(245,158,11,0.45)]" href="#asistentes">
+              Ver los cuatro asistentes
+            </a>
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-lg bg-surface-container-high/80 hover:bg-surface-container-highest text-on-surface font-title-md text-title-md transition-all shadow-sm" href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20ver%20una%20demo" rel="noopener noreferrer" target="_blank">
+              Pedir una demo
+            </a>
+</div>
+<!-- Telemetry Micro-Pill Ribbon -->
+<div class="flex items-center gap-space-lg pt-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">WhatsApp Cloud API</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">bolt</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">Respuesta &lt; 2s</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">lock</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">Datos aislados</span>
 </div>
 </div>
-<div style="flex:1 1 340px;min-width:0;display:flex;flex-direction:column;gap:10px">
-<a href="#farmacias" style="text-decoration:none;color:#F5F6F2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;border-radius:8px;background:#18302A;border-left:6px solid #3FBF8A"><span><strong style="display:block;font-size:19px">Farma-asistente</strong><span style="font-size:15px;color:#B8C5BE">Farmacias</span></span><span aria-hidden="true">→</span></a>
-<a href="#librerias" style="text-decoration:none;color:#F5F6F2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;border-radius:8px;background:#18302A;border-left:6px solid #E58A97"><span><strong style="display:block;font-size:19px">Leonardo</strong><span style="font-size:15px;color:#B8C5BE">Librerías</span></span><span aria-hidden="true">→</span></a>
-<a href="#sindicatos" style="text-decoration:none;color:#F5F6F2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;border-radius:8px;background:#18302A;border-left:6px solid #F2B632"><span><strong style="display:block;font-size:19px">Asistente Gremial</strong><span style="font-size:15px;color:#B8C5BE">Sindicatos</span></span><span aria-hidden="true">→</span></a>
-<a href="#agro" style="text-decoration:none;color:#F5F6F2;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;border-radius:8px;background:#18302A;border-left:6px solid #C9A55C"><span><strong style="display:block;font-size:19px">Federico</strong><span style="font-size:15px;color:#B8C5BE">Agro y tabaco</span></span><span aria-hidden="true">→</span></a>
+</div>
+<!-- Hero Right Column: Fast Selector Tech Panel -->
+<div class="lg:col-span-5 w-full">
+<div class="relative rounded-xl bg-surface-container/90 backdrop-blur-xl p-space-lg shadow-xl">
+<!-- Simulated Terminal Header -->
+<div class="flex items-center justify-between pb-space-md mb-space-md bg-surface-container-low/60 -mx-space-lg -mt-space-lg px-space-lg pt-4 rounded-t-xl">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error/70"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container/70"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary/70"></span>
+<span class="font-label-sm text-label-sm text-outline ml-2 font-mono">runtime_status: active</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary bg-surface-container-lowest px-2 py-0.5 rounded-full">
+                24/7 ONLINE
+              </span>
+</div>
+<!-- Quick Assistants Interactive List -->
+<div class="flex flex-col gap-space-sm">
+<!-- Item 1 -->
+<a class="group flex items-center justify-between p-3.5 rounded-lg bg-surface-container-low/70 hover:bg-surface-container-high transition-all" href="#farmacias">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">local_pharmacy</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors">Farma-asistente</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Farmacias→</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-[20px]">arrow_forward</span>
+</a>
+<!-- Item 2 -->
+<a class="group flex items-center justify-between p-3.5 rounded-lg bg-surface-container-low/70 hover:bg-surface-container-high transition-all" href="#librerias">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">menu_book</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">Leonardo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Librerías→</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors text-[20px]">arrow_forward</span>
+</a>
+<!-- Item 3 -->
+<a class="group flex items-center justify-between p-3.5 rounded-lg bg-surface-container-low/70 hover:bg-surface-container-high transition-all" href="#sindicatos">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-fixed-dim group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-primary-fixed-dim transition-colors">Asistente Gremial</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sindicatos→</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary-fixed-dim transition-colors text-[20px]">arrow_forward</span>
+</a>
+<!-- Item 4 -->
+<a class="group flex items-center justify-between p-3.5 rounded-lg bg-surface-container-low/70 hover:bg-surface-container-high transition-all" href="#agro">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-tertiary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">agriculture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-tertiary transition-colors">Federico</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Agro y tabaco→</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors text-[20px]">arrow_forward</span>
+</a>
+</div>
+<!-- Mini Live Metric Visualizer -->
+<div class="mt-space-md pt-space-md bg-surface-container-lowest/60 p-3 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">sensors</span>
+<span class="font-code-metric text-code-metric text-on-surface">Canal Oficial Meta</span>
+</div>
+<span class="font-code-metric text-code-metric text-primary">0 apps requeridas</span>
+</div>
+</div>
 </div>
 </div>
 </section>
-
-<!-- Los cuatro asistentes -->
-<section id="asistentes" style="padding:80px 20px 40px">
-<div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;gap:40px">
-<div style="max-width:44em;display:flex;flex-direction:column;gap:12px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#4A5A53">Cuatro asistentes en funcionamiento</p>
-<h2 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(32px,4.4vw,48px);line-height:1.05;text-wrap:balance">Un rubro, un asistente pensado para él.</h2>
-<p style="margin:0;color:#4A5A53;font-size:18px">Cada uno funciona en el WhatsApp que tus clientes ya usan. No hay que instalar nada.</p>
 </div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));gap:24px">
-
-<article id="farmacias" style="background:#FFFFFF;border:1px solid #D9DED6;border-top:8px solid #0F6B4F;border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:16px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#0F6B4F;font-weight:600">Farmacias</p>
-<h3 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:30px;line-height:1.1">Farma-asistente</h3>
-<p style="margin:0;color:#4A5A53">Atiende consultas, toma pedidos y recibe recetas por foto. El equipo confirma todo desde un panel simple.</p>
-<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
-<li>Horarios, dirección y envíos al instante, aunque la farmacia esté cerrada.</li>
-<li>Pedidos y recetas por foto, listos para que tu equipo los prepare.</li>
-<li>No da consejos médicos: las consultas de salud las responde siempre un farmacéutico.</li>
+<!-- SECTION: CUATRO ASISTENTES EN FUNCIONAMIENTO -->
+<section class="relative w-full py-space-xl bg-surface-container-lowest/80" id="asistentes">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-start gap-space-xs mb-space-xl max-w-3xl">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest">
+          Cuatro asistentes en funcionamiento
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Un rubro, un asistente pensado para él.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Cada uno funciona en el WhatsApp que tus clientes ya usan. No hay que instalar nada.
+        </p>
+</div>
+<!-- 2x2 Showcase Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- CARD 1: Farmacias -->
+<div id="farmacias" class="group relative flex flex-col justify-between rounded-xl bg-surface-container/90 hover:bg-surface-container-high transition-all p-space-lg shadow-lg">
+<div class="flex flex-col gap-space-md">
+<!-- Top tag & icon -->
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase px-3 py-1 rounded-full bg-secondary/10 text-secondary">
+                Farmacias
+              </span>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">medication</span>
+</div>
+</div>
+<!-- Title & Description -->
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+                Farma-asistente
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Atiende consultas, toma pedidos y recibe recetas por foto. El equipo confirma todo desde un panel simple.
+              </p>
+</div>
+<!-- Feature Bullet Points -->
+<ul class="flex flex-col gap-2.5 my-space-xs">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Horarios, dirección y envíos al instante, aunque la farmacia esté cerrada.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Pedidos y recetas por foto, listos para que tu equipo los prepare.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">No da consejos médicos: las consultas de salud las responde siempre un farmacéutico.</span>
+</li>
 </ul>
-<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:auto;padding-top:8px">
-<a href="https://wa.me/5491178142296?text=Hola" style="text-decoration:none;background:#0F6B4F;color:#FFFFFF;font-weight:600;padding:12px 20px;border-radius:6px">Probalo por WhatsApp</a>
-<a href="https://bot-farmacias-production.up.railway.app/" style="text-decoration:none;border:2px solid #10201A;font-weight:600;padding:10px 20px;border-radius:6px">Ver el sitio</a>
 </div>
-</article>
-
-<article id="librerias" style="background:#FFFFFF;border:1px solid #D9DED6;border-top:8px solid #8A2D3B;border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:16px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#8A2D3B;font-weight:600">Librerías</p>
-<h3 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:30px;line-height:1.1">Leonardo</h3>
-<p style="margin:0;color:#4A5A53">El librero que nunca cierra el local: recomienda libros y discos según el gusto de cada cliente.</p>
-<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
-<li>Busca en tu catálogo real: título, autor, precio y disponibilidad.</li>
-<li>Indica la sucursal más cercana entre todas las de la cadena.</li>
-<li>Cierra con las promociones y medios de pago vigentes.</li>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-lg mt-space-md">
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-secondary text-on-secondary font-title-md text-title-md hover:bg-secondary-fixed transition-colors shadow-sm" href="https://wa.me/5491178142296?text=Hola" rel="noopener noreferrer" target="_blank">
+              Probalo por WhatsApp
+            </a>
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container-highest text-on-surface font-title-md text-title-md hover:bg-surface-bright transition-colors shadow-sm" href="https://bot-farmacias-production.up.railway.app/" rel="noopener noreferrer" target="_blank">
+              Ver el sitio
+            </a>
+</div>
+</div>
+<!-- CARD 2: Librerías -->
+<div id="librerias" class="group relative flex flex-col justify-between rounded-xl bg-surface-container/90 hover:bg-surface-container-high transition-all p-space-lg shadow-lg">
+<div class="flex flex-col gap-space-md">
+<!-- Top tag & icon -->
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase px-3 py-1 rounded-full bg-primary/10 text-primary">
+                Librerías
+              </span>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">book_2</span>
+</div>
+</div>
+<!-- Title & Description -->
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+                Leonardo
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                El librero que nunca cierra el local: recomienda libros y discos según el gusto de cada cliente.
+              </p>
+</div>
+<!-- Feature Bullet Points -->
+<ul class="flex flex-col gap-2.5 my-space-xs">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Busca en tu catálogo real: título, autor, precio y disponibilidad.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Indica la sucursal más cercana entre todas las de la cadena.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Cierra con las promociones y medios de pago vigentes.</span>
+</li>
 </ul>
-<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:auto;padding-top:8px">
-<a href="https://wa.me/5491173566723?text=Hola%2C%20Leonardo" style="text-decoration:none;background:#8A2D3B;color:#FFFFFF;font-weight:600;padding:12px 20px;border-radius:6px">Chatear con Leonardo</a>
-<a href="https://www.leonardo-ai.app/" style="text-decoration:none;border:2px solid #10201A;font-weight:600;padding:10px 20px;border-radius:6px">Ver el sitio</a>
 </div>
-</article>
-
-<article id="sindicatos" style="background:#FFFFFF;border:1px solid #D9DED6;border-top:8px solid #1B2F5B;border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:16px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#1B2F5B;font-weight:600">Sindicatos</p>
-<h3 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:30px;line-height:1.1">Asistente Gremial</h3>
-<p style="margin:0;color:#4A5A53">Que ningún afiliado se quede sin respuesta: convenio, paritarias, beneficios, afiliación y sedes por WhatsApp.</p>
-<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
-<li>Contesta a cualquier hora, también a quienes trabajan en turnos rotativos.</li>
-<li>Reúne en un solo lugar la información que hoy está repartida.</li>
-<li>Descarga a la seccional de las consultas repetidas.</li>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-lg mt-space-md">
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary font-title-md text-title-md hover:bg-primary transition-colors shadow-sm" href="https://wa.me/5491173566723?text=Hola%2C%20Leonardo" rel="noopener noreferrer" target="_blank">
+              Chatear con Leonardo
+            </a>
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container-highest text-on-surface font-title-md text-title-md hover:bg-surface-bright transition-colors shadow-sm" href="https://www.leonardo-ai.app/" rel="noopener noreferrer" target="_blank">
+              Ver el sitio
+            </a>
+</div>
+</div>
+<!-- CARD 3: Sindicatos -->
+<div id="sindicatos" class="group relative flex flex-col justify-between rounded-xl bg-surface-container/90 hover:bg-surface-container-high transition-all p-space-lg shadow-lg">
+<div class="flex flex-col gap-space-md">
+<!-- Top tag & icon -->
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase px-3 py-1 rounded-full bg-primary-fixed/15 text-primary-fixed-dim">
+                Sindicatos
+              </span>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-fixed-dim">
+<span class="material-symbols-outlined text-[22px]">badge</span>
+</div>
+</div>
+<!-- Title & Description -->
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+                Asistente Gremial
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Que ningún afiliado se quede sin respuesta: convenio, paritarias, beneficios, afiliación y sedes por WhatsApp.
+              </p>
+</div>
+<!-- Feature Bullet Points -->
+<ul class="flex flex-col gap-2.5 my-space-xs">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary-fixed-dim text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Contesta a cualquier hora, también a quienes trabajan en turnos rotativos.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary-fixed-dim text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Reúne en un solo lugar la información que hoy está repartida.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary-fixed-dim text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Descarga a la seccional de las consultas repetidas.</span>
+</li>
 </ul>
-<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:auto;padding-top:8px">
-<a href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20ver%20una%20demo%20del%20asistente%20para%20sindicatos" style="text-decoration:none;background:#1B2F5B;color:#FFFFFF;font-weight:600;padding:12px 20px;border-radius:6px">Pedir una demo</a>
-<a href="https://claude.ai/artifact/98opwigW2tTAHEMnp5ej7Q" style="text-decoration:none;border:2px solid #10201A;font-weight:600;padding:10px 20px;border-radius:6px">Ver la presentación</a>
 </div>
-</article>
-
-<article id="agro" style="background:#FFFFFF;border:1px solid #D9DED6;border-top:8px solid #7A5A1E;border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:16px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#7A5A1E;font-weight:600">Agro y tabaco</p>
-<h3 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:30px;line-height:1.1">Federico</h3>
-<p style="margin:0;color:#4A5A53">Los datos oficiales del tabaco, a un mensaje de distancia: producción, acopio, precios, POAs y normativa.</p>
-<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
-<li>Cada cifra sale de una consulta contra fuentes oficiales; si el dato no existe, lo dice.</li>
-<li>Envía por WhatsApp el PDF original de la resolución que el productor pide.</li>
-<li>Cubre las siete provincias tabacaleras del Norte Grande.</li>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-lg mt-space-md">
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container-highest text-on-surface hover:bg-surface-bright font-title-md text-title-md transition-colors shadow-sm" href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20ver%20una%20demo%20del%20asistente%20para%20sindicatos" rel="noopener noreferrer" target="_blank">
+              Pedir una demo
+            </a>
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container-low text-on-surface font-title-md text-title-md hover:bg-surface-container-highest transition-colors shadow-sm" href="https://claude.ai/artifact/98opwigW2tTAHEMnp5ej7Q" rel="noopener noreferrer" target="_blank">
+              Ver la presentación
+            </a>
+</div>
+</div>
+<!-- CARD 4: Agro y tabaco -->
+<div id="agro" class="group relative flex flex-col justify-between rounded-xl bg-surface-container/90 hover:bg-surface-container-high transition-all p-space-lg shadow-lg">
+<div class="flex flex-col gap-space-md">
+<!-- Top tag & icon -->
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase px-3 py-1 rounded-full bg-tertiary/10 text-tertiary">
+                Agro y tabaco
+              </span>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">nature</span>
+</div>
+</div>
+<!-- Title & Description -->
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+                Federico
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Los datos oficiales del tabaco, a un mensaje de distancia: producción, acopio, precios, POAs y normativa.
+              </p>
+</div>
+<!-- Feature Bullet Points -->
+<ul class="flex flex-col gap-2.5 my-space-xs">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Cada cifra sale de una consulta contra fuentes oficiales; si el dato no existe, lo dice.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Envía por WhatsApp el PDF original de la resolución que el productor pide.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">Cubre las siete provincias tabacaleras del Norte Grande.</span>
+</li>
 </ul>
-<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:auto;padding-top:8px">
-<a href="https://wa.me/5491178192165?text=Hola%20Federico" style="text-decoration:none;background:#7A5A1E;color:#FFFFFF;font-weight:600;padding:12px 20px;border-radius:6px">Escribirle a Federico</a>
-<a href="https://www.agrotabaco.com/bot" style="text-decoration:none;border:2px solid #10201A;font-weight:600;padding:10px 20px;border-radius:6px">Ver el sitio</a>
 </div>
-</article>
-
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-lg mt-space-md">
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-outline-variant/80 hover:bg-outline-variant text-on-surface font-title-md text-title-md transition-colors shadow-sm" href="https://wa.me/5491178192165?text=Hola%20Federico" rel="noopener noreferrer" target="_blank">
+              Escribirle a Federico
+            </a>
+<a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-surface-container-highest text-on-surface font-title-md text-title-md hover:bg-surface-bright transition-colors shadow-sm" href="https://www.agrotabaco.com/bot" rel="noopener noreferrer" target="_blank">
+              Ver el sitio
+            </a>
 </div>
-</div>
-</section>
-
-<!-- Cómo trabajo -->
-<section id="como" style="padding:80px 20px">
-<div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;gap:40px">
-<div style="max-width:44em;display:flex;flex-direction:column;gap:12px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#4A5A53">Cómo trabajo</p>
-<h2 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(32px,4.4vw,48px);line-height:1.05;text-wrap:balance">A tu medida, no una plantilla genérica.</h2>
-</div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:32px">
-<div style="border-top:3px solid #10201A;padding-top:16px;display:flex;flex-direction:column;gap:8px">
-<p style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:40px;line-height:1;color:#0F6B4F">1</p>
-<h3 style="margin:0;font-size:20px;font-weight:600">Me cuentas cómo trabajás</h3>
-<p style="margin:0;color:#4A5A53">Horarios, sucursales, catálogo, convenios o fuentes de datos. Entiendo tu operación antes de armar nada.</p>
-</div>
-<div style="border-top:3px solid #10201A;padding-top:16px;display:flex;flex-direction:column;gap:8px">
-<p style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:40px;line-height:1;color:#0F6B4F">2</p>
-<h3 style="margin:0;font-size:20px;font-weight:600">Armo una demo con tus datos</h3>
-<p style="margin:0;color:#4A5A53">Lo probás con tu propio catálogo o tu propia información, antes de decidir.</p>
-</div>
-<div style="border-top:3px solid #10201A;padding-top:16px;display:flex;flex-direction:column;gap:8px">
-<p style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:40px;line-height:1;color:#0F6B4F">3</p>
-<h3 style="margin:0;font-size:20px;font-weight:600">Lo conecto a tu WhatsApp</h3>
-<p style="margin:0;color:#4A5A53">Funciona sobre WhatsApp Business, con el número que tus clientes ya conocen.</p>
-</div>
-<div style="border-top:3px solid #10201A;padding-top:16px;display:flex;flex-direction:column;gap:8px">
-<p style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:40px;line-height:1;color:#0F6B4F">4</p>
-<h3 style="margin:0;font-size:20px;font-weight:600">Tu equipo tiene la última palabra</h3>
-<p style="margin:0;color:#4A5A53">El asistente atiende lo repetitivo y pasa a una persona lo que requiere criterio.</p>
 </div>
 </div>
 </div>
 </section>
-
-<!-- Quién soy -->
-<section id="quien" style="background:#FFFFFF;border-top:1px solid #D9DED6;border-bottom:1px solid #D9DED6;padding:80px 20px">
-<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:48px;align-items:flex-start">
-<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:12px">
-<p style="margin:0;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#4A5A53">Quién está detrás</p>
-<h2 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(32px,4.4vw,48px);line-height:1.05;text-wrap:balance">Julio César Ibarra</h2>
-<p style="margin:0;color:#4A5A53;font-size:18px">Ibarra – Bot y Automatizaciones</p>
+<!-- SECTION: CÓMO TRABAJO -->
+<section class="relative w-full py-space-xl bg-surface" id="como-trabajo">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-start gap-space-xs mb-space-xl max-w-2xl">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">
+          Cómo trabajo
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          A tu medida, no una plantilla genérica.
+        </h2>
 </div>
-<div style="flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:16px">
-<p style="margin:0">Diseño, construyo y mantengo yo mismo cada uno de estos asistentes. Hablás directamente con quien los hizo, no con un intermediario.</p>
-<p style="margin:0">Cada cliente tiene su propia instancia: tus productos, tus afiliados y tus datos no se mezclan con los de nadie más. Los asistentes piden consentimiento antes de guardar información y derivan a una persona ante cualquier tema sensible.</p>
+<!-- 4-Step Pipeline Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md relative">
+<!-- Step 1 -->
+<div class="relative flex flex-col p-space-lg rounded-xl bg-surface-container/70 hover:bg-surface-container transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-space-md">
+<span class="font-display text-headline-md text-primary">1</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">
+            Me cuentas cómo trabajás
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Horarios, sucursales, catálogo, convenios o fuentes de datos. Entiendo tu operación antes de armar nada.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="relative flex flex-col p-space-lg rounded-xl bg-surface-container/70 hover:bg-surface-container transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-space-md">
+<span class="font-display text-headline-md text-secondary">2</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">
+            Armo una demo con tus datos
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Lo probás con tu propio catálogo o tu propia información, antes de decidir.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="relative flex flex-col p-space-lg rounded-xl bg-surface-container/70 hover:bg-surface-container transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-space-md">
+<span class="font-display text-headline-md text-primary-fixed-dim">3</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">
+            Lo conecto a tu WhatsApp
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Funciona sobre WhatsApp Business, con el número que tus clientes ya conocen.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="relative flex flex-col p-space-lg rounded-xl bg-surface-container/70 hover:bg-surface-container transition-all">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-space-md">
+<span class="font-display text-headline-md text-tertiary">4</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">
+            Tu equipo tiene la última palabra
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            El asistente atiende lo repetitivo y pasa a una persona lo que requiere criterio.
+          </p>
+</div>
 </div>
 </div>
 </section>
-
-<!-- Cierre -->
-<section style="background:#10201A;color:#F5F6F2;padding:80px 20px">
-<div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:20px">
-<h2 style="margin:0;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:clamp(36px,5.4vw,64px);line-height:1;max-width:16em;text-wrap:balance">¿Charlamos sobre tu negocio?</h2>
-<p style="margin:0;font-size:19px;color:#B8C5BE;max-width:36em">Contame a qué se dedica tu farmacia, librería, sindicato o empresa, y armamos una demo con tu propia información.</p>
-<a href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20asistentes%20de%20WhatsApp" style="text-decoration:none;background:#F2B632;color:#10201A;font-weight:600;padding:14px 26px;border-radius:6px">Escribime por WhatsApp</a>
+<!-- SECTION: QUIÉN ESTÁ DETRÁS -->
+<section class="relative w-full py-space-xl bg-surface-container-lowest" id="quien-soy">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="p-space-xl lg:p-14 rounded-2xl bg-surface-container/80 backdrop-blur-xl shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Creator Identity Column -->
+<div class="lg:col-span-5 flex flex-col items-start gap-space-xs">
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest">
+              Quién está detrás
+            </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Julio César Ibarra
+            </h2>
+<span class="font-title-md text-title-md text-on-surface-variant font-display">
+              Ibarra – Bot y Automatizaciones
+            </span>
+<!-- Verification Pill -->
+<div class="inline-flex items-center gap-2 mt-space-md px-3 py-1.5 rounded-lg bg-surface-container-high">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span class="font-code-metric text-code-metric text-on-surface">Desarrollador y Consultor Directo</span>
+</div>
+</div>
+<!-- Value / Security Pillars -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">person_check</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                Diseño, construyo y mantengo yo mismo cada uno de estos asistentes. Hablás directamente con quien los hizo, no con un intermediario.
+              </p>
+</div>
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">security</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                Cada cliente tiene su propia instancia: tus productos, tus afiliados y tus datos no se mezclan con los de nadie más. Los asistentes piden consentimiento antes de guardar información y derivan a una persona ante cualquier tema sensible.
+              </p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
-
-<footer style="background:#0B1612;color:#B8C5BE;padding:24px 20px;font-size:14px">
-<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px">
-<span>Ibarra – Bot y Automatizaciones · Julio César Ibarra</span>
-<span>Argentina</span>
+<!-- FINAL CTA SECTION: CONVERSION BANNER -->
+<section class="relative w-full py-space-xl lg:py-28 overflow-hidden">
+<!-- Glow Backdrop -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="w-[500px] h-[300px] bg-primary/10 rounded-full blur-[120px]"></div>
 </div>
-</footer>
-
+<div class="relative max-w-5xl mx-auto px-margin text-center flex flex-col items-center gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-secondary">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span class="font-label-sm text-label-sm uppercase">Atención Inmediata</span>
 </div>
-</body>
-</html>
+<h2 class="font-display text-display text-on-surface tracking-tight">
+        ¿Charlamos sobre tu negocio?
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+        Contame a qué se dedica tu farmacia, librería, sindicato o empresa, y armamos una demo con tu propia información.
+      </p>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-primary-container text-on-primary font-title-lg text-title-lg hover:bg-primary transition-all shadow-[0_0_24px_rgba(245,158,11,0.35)] hover:shadow-[0_0_36px_rgba(245,158,11,0.55)]" href="https://wa.me/5491166814208?text=Hola%20Julio%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20asistentes%20de%20WhatsApp" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">send</span>
+          Escribime por WhatsApp
+        </a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="max-w-7xl mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-xs"><span class="font-title-md text-title-md text-on-surface">Ibarra – Bot y Automatizaciones</span><span class="text-outline font-title-md text-title-md">·</span><span class="font-body-md text-body-md text-on-surface-variant">Julio César Ibarra</span></div><p class="font-body-sm text-body-sm text-outline">Agentes conversacionales inteligentes &amp; arquitecturas automatizadas de alta conversión.</p></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="material-symbols-outlined text-on-surface-variant text-[16px]">public</span><span class="font-label-md text-label-md text-on-surface-variant">Argentina</span></div><span class="font-label-md text-label-md text-outline">© 2024 Todos los derechos reservados.</span></div></div></footer><script>
+function toggleMobileMenu() {
+  var m = document.getElementById('mobile-menu');
+  var icon = document.getElementById('menu-icon');
+  if (m) {
+    var isHidden = m.classList.toggle('hidden');
+    if (icon) icon.textContent = isHidden ? 'menu' : 'close';
+  }
+}
+var btn = document.getElementById('mobile-menu-btn');
+if (btn) btn.addEventListener('click', toggleMobileMenu);
+</script>
+</body></html>
